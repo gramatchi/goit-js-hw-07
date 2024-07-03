@@ -1,43 +1,35 @@
-ul{
-    list-style-type: none;
-    padding-left: 0;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
- 
 
- #categories {
+#categories {
+  padding: 16px;
+}
 
-    padding: 16px;
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 24px;
+  width: 392px;
+}
 
- }
- 
- .item {
-    background-color: #f6f6fe;
-    border-radius: 8px;
-    padding: 16px;
-    gap: 24px;
-    width: 392px;
-    
- }
- 
- 
 li {
-    border: 1px solid #808080;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    padding: 8px 16px;
-    font: 400 16px / 1.5 "Montserrat", sans-serif;
-letter-spacing: 0.04em;
-color: #2e2f42;
-width: 360px;
- 
- }
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  font: 400 16px / 1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+}
 
- h2 {
-    margin: 0;
-    font: 600 24px / 1.33333 "Montserrat", sans-serif;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
- 
- 
-    margin-bottom: 16px;
- }
+h2 {
+  margin: 0;
+  font: 600 24px / 1.33333 "Montserrat", sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
